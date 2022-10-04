@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-y: auto;
+
+}
+header
+{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+}
+img
+{
+    height: 100px;
+    width: 145px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.imgbanner
+{
+    margin: auto;
+    height: 200px;
+    width: 500px;
+}
+nav
+{
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    display: flex;
+    gap: 10px;
+}
+.txtnav
+{
+    color: white;
+}
+.txtnav:hover
+{
+    color: black;
+}
+body
+{
+    padding-bottom: 40px;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background:  rgb(28, 197, 28);
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.cont
+{
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+    flex-direction: row;
+}
+.contb
+{
+    height: 200px;
+    width: auto;
+}
+.btnsalvar
+{
+    margin: auto;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(8, 253, 8);
+}
+.btnsalvar:hover
+{
+    cursor: pointer;
+    background-color: rgb(0, 109, 0);
+}
+.salvar
+{
+    height: 50px;
+    width: 30px;
+}
+
+
+
+.tituloradio
+{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+}
+.tituloinput
+{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #eee;
+    padding: 0rem;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(54, 80, 231);
+    color: rgb(255, 255, 255);
+}
+
+.delete {
+    background-color: rgb(231, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+
+table {
+    background-color: #eee;
+    margin-top: .9rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 0px 50px;
+    text-align: left;
+    border-bottom: 1px solid rgb(26, 15, 15);
+}
+.form-horizontal {
+    background-color:aqua;
+    padding: 0.5em;
+}
+
+.form-group {
+    background-color: rgb(197, 204, 176);
+    padding: 0.5em;
+}
+.row {
+    width: 100%;
+}
+
+.wrapper {
+    padding: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .form-group label {
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  
+  .radio, .checkbox {
+    cursor: pointer;
+    appearance: none;
+    width: 25px;
+    height: 10px;
+    border: 3px solid rgb(211, 211, 211);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+  
+  .checkbox {
+    border-radius: 0;
+  }
+  
+  .radio:before, .checkbox:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: rgb(8, 2, 2);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+  }
+  
+  .checkbox:before {
+    border-radius: 0;
+    background: transparent;
+    border: 4px solid rgb(5, 10, 10);
+    border-left: 0;
+    border-top: 0;
+    width: 3px;
+    height: 14px;
+    transform: rotate(45deg);
+    top: 1px;
+  }
+  
+  .radio:checked:before, .checkbox:checked:before {
+    opacity: 1;
+  }
+  
+  .radio:focus, .checkbox:focus {
+    box-shadow: 0 0 5px turquoise;
+  }
+  .date {
+    font-family: sans-serif;
+    padding-bottom: 5px;
+ 
+  }
+  .btnlimpar
+{
+    margin: auto;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(194, 69, 60);
+}
+.btnlimpar:hover
+{
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+}
+.btnexcluir {
+    margin: auto;
+    height: 30px;
+    width:80px;
+    background-color: rgb(194, 69, 60);
+}
+.btnexcluir:hover {
+
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+
+}
+.btnexcluir1 {
+    margin: auto;
+    height: 30px;
+    width:80px;
+    background-color: rgb(194, 69, 60);
+}
+.btnexcluir1:hover {
+    
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+
+}
+.btnexcluir2 {
+    margin: auto;
+    height: 30px;
+    width:80px;
+    background-color: rgb(194, 69, 60);
+}
+.btnexcluir2:hover {
+    
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+
+}
+.btnexcluir3 {
+    margin: auto;
+    height: 30px;
+    width:80px;
+    background-color: rgb(194, 69, 60);
+}
+.btnexcluir3:hover {
+    
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+
+}
+.btnexcluir4 {
+    margin: auto;
+    height: 30px;
+    width:80px;
+    background-color: rgb(194, 69, 60);
+}
+.btnexcluir4:hover {
+    
+    cursor: pointer;
+    background-color: rgb(131, 0, 0);
+
+}
